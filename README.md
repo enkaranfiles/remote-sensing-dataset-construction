@@ -1,6 +1,6 @@
 # Remote Sensing Dataset Construction
 
-### Vision Language Dataset Construction Library
+### Vision Language Dataset Construction Library
 
 Purpose of the repository construct codebase for feeding Foundation Model(FM) that we are going to build.
 
