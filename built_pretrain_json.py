@@ -4,12 +4,16 @@ import argparse
 
 def load_json_files_from_directory(directory_path):
     combined_data = []
+    current_id = 0
     for filename in os.listdir(directory_path):
         if filename.endswith('.json'):
             file_path = os.path.join(directory_path, filename)
             with open(file_path, 'r') as file:
                 data = json.load(file)
-                combined_data.extend(data)
+                for item in data:
+                    item['id'] = str(current_id)  # Adjusting the ID
+                    combined_data.append(item)
+                    current_id += 1
     return combined_data
 
 def save_to_json(data, output_file_path):
