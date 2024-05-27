@@ -6,6 +6,11 @@ Purpose of the repository construct codebase for feeding Foundation Model(FM) th
 
 Instruction tuning and pretraining datasets will be shared soon via the Google Drive API. This will include access for those who typically seek datasets provided through Chinese domains like Pan.baidu.
 
+Inspired by the MM-LLM Pretraining paper by Apple (https://arxiv.org/abs/2403.09611), I have integrated several filter options into our pretraining process. These enhancements are expected to significantly improve the performance of our pretraining model.
+
+### RS-Assistant 
+![Captioning Example](figures/initial_result.png)
+
 ## Visual Grounding Datasets
 
 | Dataset Type       | Dataset Name    | Status | Number of Samples |
