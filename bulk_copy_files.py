@@ -16,6 +16,9 @@ def copy_image_files(source_roots, target_directory):
     image_extensions = {'.jpg', '.jpeg', '.png', '.tif'}  
     copied_files_count = 0  # Counter for the number of files copied
     
+    if not os.path.exists(target_directory):
+        os.makedirs(target_directory)
+    
     for source_root in source_roots:
         # Walk through all directories and files in each source_root
         for dirpath, dirnames, filenames in os.walk(source_root):
@@ -53,8 +56,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Copy image files from multiple source directories to a single target directory.")
-    parser.add_argument('source_roots', type=str, help="Comma-separated list of source directories.")
-    parser.add_argument('target_directory', type=str, help="Target directory to copy the images to.")
+    parser.add_argument('--source_roots', type=str, help="Comma-separated list of source directories.")
+    parser.add_argument('--target_directory', type=str, help="Target directory to copy the images to.")
     
     args = parser.parse_args()
     main(args)
