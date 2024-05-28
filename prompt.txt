@@ -1,0 +1,26 @@
+python bulk_copy_files.py \
+--source_roots /home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/captioning/Cap_ERA/SingleFrames/Tra,\
+/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/captioning/LAION5B/img,\
+/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/captioning/RSICD/RSICD_images,\
+/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/captioning/RSITMD/images,\
+/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/captioning/UCM_captions/imgs,\
+/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/grounding/JPEGImages,\
+/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/vqa/FloodNet/Images,\
+/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/vqa/RSVQAxBEN/Images,\
+/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/vqa/USGS_Open_Street_Map_QA/Data\
+--target_directory /home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1
+
+
+python test_dataset.py --json_file pretraining/pretrain-alignment-dataset-raw.json \
+--image_directory dataset/img/RS-LLaVA-Dataset-v1/ \
+--output_file pretraining/pretrain-alignment-dataset.json \
+--log_file log.json \
+--report_file report.json \
+--expected_width 336 \
+--expected_height 336
+
+gdrive files upload --recursive dataset/json_files --parent 1f12LiTqg_jR0587ljUKZkbUGE_yIDuAl
+
+huggingface-cli upload /home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/json_files --repo eneskaranfil/remote-sensing-instruction-tuning-dataset --path . --type dataset
+
+huggingface-cli repo upload --repo eneskaranfil/remote-sensing-instruction-tuning-dataset --type dataset --path .

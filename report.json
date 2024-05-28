@@ -1,0 +1,22 @@
+Summary Report:
+Initial dataset size: 1216266
+Final dataset size: 1125733
+Issues count:
+Incorrect dimensions                                                                                                                                                 90516
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/863e30c2e32a737bd14cbd95e571a137.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/9b74782b1c531e87859af50b0a6fd0d9.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/f7dcd4d4c10f9a3052f2279ae99442cc.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/4f7e992f01644c9fcc305e05b9bbf7a5.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/133ed50e93e85ade6f68f112c117b82b.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/5150673baa94429484e75e1d8f161727.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/0c46004be60d8c2b5d1b96a64586d60e.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/ee72905ac11541ec616c1c244beb89c2.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/bc5ebef9e6a190b4eca61d4e41bdb84d.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/afc1d82f0a653dd25baf16f53c4be052.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/4e0300bb3468d6bb32675574ea6f059b.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/0d707991829910a9db60e85de30407ab.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/066809ef0a4059b0c41fc45ffe4835d5.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/cc594b2db82dee2ecb49d53a8b254e4e.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/0c2e3b135ef1fa7094d25ad44c7cb58e.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/7c112f12b2c5fe9b3de95e3a881851fe.jpg'        1
+cannot identify image file '/home/eneskaranfil/projects/remote-sensing-dataset-construction/dataset/img/RS-LLaVA-Dataset-v1/1d8e1e6c5d1167d1b532f5d9adbd801e.png'        1
